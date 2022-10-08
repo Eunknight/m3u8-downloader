@@ -495,7 +495,7 @@ new Vue({
     getSource() {
       let { href } = location
       const currentUrl = new URL(location.href)
-      const url = currentUrl.searchParams.get('url')
+      const url = currentUrl.searchParams.get('source')
       if (url) {
         this.url = url
       }
